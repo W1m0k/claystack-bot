@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address payable[]",
+        "name": "wallets",
+        "type": "address[]"
+      }
+    ],
+    "name": "split",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  }
+]

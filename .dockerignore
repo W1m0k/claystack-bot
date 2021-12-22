@@ -1,0 +1,6 @@
+**
+!/src
+!/scripts
+!/package.json
+!/crontab.txt
+!/claystack-pm2.config.js

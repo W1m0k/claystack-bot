@@ -1,0 +1,13 @@
+CRON_TZ=Asia/Bangkok
+
+# 23:00 Wed,Sat
+0 23 * * 3,6 /usr/local/bin/pm2 start /claystack/claystack-pm2.config.js --only "claim"
+
+# Every midnight
+0 0 * * * /usr/local/bin/pm2 start /claystack/claystack-pm2.config.js --only "faucet"
+
+# 7:00 AM every Tue and Fri
+# 0 7 * * 2,5 /usr/local/bin/pm2 start /claystack/claystack-pm2.config.js --only "fund"
+
+# 9:00 AM every Mon and Thu
+0 9 * * 1,4 /usr/local/bin/pm2 start /claystack/claystack-pm2.config.js --only "stake"

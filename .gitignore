@@ -1,0 +1,4 @@
+node_modules
+credentials
+!package.json
+!abi/*.json
