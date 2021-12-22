@@ -1,0 +1,23 @@
+{
+  "name": "claystack-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "gen": "node src/start-new-wallets.js",
+    "fund": "node src/fund.js",
+    "claim": "node src/claimer.js",
+    "stat": "node src/stat.js",
+    "end": "node src/end.js",
+    "faucet": "node src/faucet.js",
+    "staking": "node src/staking.js",
+    "donate": "node src/donate.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^5.5.2",
+    "node-fetch": "2"
+  }
+}
